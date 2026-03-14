@@ -11,7 +11,19 @@ public class Strings {
         //SubString
         System.out.println(Frase.substring(0, 6));
         //The CASES toUperCase-toLowerCase.- Transform a mayus y minus
-        
+        String mayusName = name.toUpperCase();
+        String minName = name.toLowerCase();
+        System.out.println(mayusName);
+        System.out.println(minName);
+        // Comprobar si contiene
+        System.out.println(mayusName.contains("ix")); //Dara false pq todo esta en mayus
+        //Comparacion de Strings
+       System.out.println(name.equals("Sixorca")); // equals es mejor que == con cadenas de texto pq == compara hasta el tipo de objeto y equals contenido del texto.
+       //Trim y replace
+       //Trim elimina espacios al inicio y al final de el texto.
+       //Replace se le pasan 2 parametros el caracter antiguo y el moderno(" ", "").
+       // format Es el printf(%s strings, %d numeros enteros, %f decimales)
+
 
 
     }
